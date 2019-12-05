@@ -69,7 +69,7 @@ export class MTableToolbar extends React.Component {
             startAdornment: (
               <InputAdornment position="start">
                 <Tooltip title={localization.searchTooltip}>
-                  <this.props.icons.Search color="inherit" fontSize="small" />
+                  <this.props.icons.Search color="primary" fontSize="small" />
                 </Tooltip>
               </InputAdornment>
             ),
